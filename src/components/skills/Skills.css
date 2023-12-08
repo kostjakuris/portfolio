@@ -81,3 +81,113 @@
     background: #2667C9;
 }
 
+@media (max-width: 834px) {
+    .skills__wrapper {
+        width: 608px;
+    }
+}
+
+@media (max-width: 700px) {
+    .skills__wrapper {
+        width: 508px;
+    }
+    
+    .skills__wrapper-firstOval {
+        width: 311px;
+    }
+    
+    .skills__wrapper-firstBlueOval {
+        width: 181px;
+    }
+    
+    .skills__wrapper-secondBlueOval {
+        width: 116px;
+    }
+    
+    .skills__wrapper-thirdBlueOval {
+        width: 78px;
+    }
+    
+    .skills__wrapper-forthBlueOval {
+        width: 176px;
+    }
+    
+    .skills__wrapper-fifthBlueOval {
+        width: 106px;
+    }
+    
+    .skills__wrapper-sixthBlueOval {
+        width: 134px;
+    }
+}
+
+@media (max-width: 550px) {
+    .skills__wrapper-title {
+        font-size: 14px;
+    }
+    .skills__wrapper {
+        width: 308px;
+    }
+    
+    .skills__wrapper-firstOval {
+        width: 211px;
+    }
+    
+    .skills__wrapper-firstBlueOval {
+        width: 122px;
+    }
+    
+    .skills__wrapper-secondBlueOval {
+        width: 68px;
+    }
+    
+    .skills__wrapper-thirdBlueOval {
+        width: 54px;
+    }
+    
+    .skills__wrapper-forthBlueOval {
+        width: 99px;
+    }
+    
+    .skills__wrapper-fifthBlueOval {
+        width: 78px;
+    }
+    
+    .skills__wrapper-sixthBlueOval {
+        width: 91px;
+    }
+}
+
+@media (max-width: 350px) {
+    .skills__wrapper {
+        width: 258px;
+    }
+    
+    .skills__wrapper-firstOval {
+        width: 151px;
+    }
+    
+    .skills__wrapper-firstBlueOval {
+        width: 82px;
+    }
+    
+    .skills__wrapper-secondBlueOval {
+        width: 48px;
+    }
+    
+    .skills__wrapper-thirdBlueOval {
+        width: 34px;
+    }
+    
+    .skills__wrapper-forthBlueOval {
+        width: 69px;
+    }
+    
+    .skills__wrapper-fifthBlueOval {
+        width: 48px;
+    }
+    
+    .skills__wrapper-sixthBlueOval {
+        width: 51px;
+    }
+}
