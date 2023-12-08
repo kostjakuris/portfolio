@@ -1,0 +1,28 @@
+.about {
+    background: var(--background-first);
+    overflow-x: hidden;
+    
+}
+
+.about__wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.about__img {
+    margin-bottom: 160px;
+}
+
+.about__text {
+    width: 464px;
+    height: 111px;
+    color: var(--color);
+    text-align: center;
+    font-family: var(--font-family);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+

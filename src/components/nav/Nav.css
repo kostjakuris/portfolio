@@ -1,0 +1,96 @@
+.nav__wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 81px;
+    padding-top: 27px;
+    overflow: hidden;
+}
+
+.logo {
+    width: 68px;
+    height: 35px;
+    color: var(--color);
+    font-family: Island Moments, cursive;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.logo--mobile {
+    display: none;
+}
+
+.nav {
+    width: 464px;
+}
+
+.nav__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__item {
+    list-style-type: none;
+}
+
+.nav__link {
+    color: var(--color);
+    font-family: var(--font-family);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.nav__right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 261px;
+}
+
+.nav__number {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 160px;
+}
+
+.nav__theme {
+    cursor: pointer;
+}
+
+.nav__number-link {
+    color: var(--color);
+    font-family: var(--font-family);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none;
+}
+
+
+.nav__mobile {
+    display: none;
+}
+
+.nav__mobile-icon {
+    display: none;
+}
+
+.nav__right-mobile {
+    display: none;
+}
+
+.nav__theme--mobile {
+    display: none;
+}
+
