@@ -7,9 +7,10 @@ import Layout from "./components/layout/Layout";
 
 function App () {
   return (
-      <Routes>
-        <Route path="/" element={<Layout/>}/>
-        <Route path="/projects" element={<ProjectDetails/>}/>
+      
+      <Routes >
+        <Route path="/portfolio" element={<Layout/>}/>
+        <Route path="/portfolio/projects" element={<ProjectDetails/>}/>
       </Routes>
   );
 }
