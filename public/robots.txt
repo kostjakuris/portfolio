@@ -1,6 +1,3 @@
 # https://www.robotstxt.org/robotstxt.html
 User-agent: *
-Disallow:/projects
-Disallow:/img
-
-Sitemap:https://my-portfolio-alpha-ruby.vercel.app/sitemap.xml
+Disallow:
