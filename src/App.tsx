@@ -1,19 +1,24 @@
-import React from "react";
-import "./App.css";
-import {Route, Routes} from "react-router-dom";
-import ProjectDetails from "./components/projectDetails/ProjectDetails";
-import Layout from "./components/layout/Layout";
+import React from 'react';
+import './App.css';
 
-
-function App () {
-    return (
-        <div>
-            <Routes>
-                <Route path="/" element={<Layout/>}/>
-                <Route path="/projects" element={<ProjectDetails/>}/>
-            </Routes>
-        </div>
-    );
+function App() {
+  return (
+    <div className="App">
+      <header className="App-header">
+        <p>
+          Editvbv <code>src/App.tsx</code> and save to reload.
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+      </header>
+    </div>
+  );
 }
 
 export default App;
