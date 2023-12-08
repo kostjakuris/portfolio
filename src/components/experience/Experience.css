@@ -1,0 +1,14 @@
+.experience {
+    background: var(--background-second);
+    overflow-x: hidden;
+    
+}
+
+.experience__img-photo {
+    width: 400px;
+}
+
+.experience__text {
+    height: 200px;
+}
+

@@ -1,0 +1,85 @@
+.header {
+    background-color: var(--background-first);
+    overflow-x: hidden;
+}
+
+.header__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__title {
+    width:380px;
+    height: 177px;
+    color: var(--color);
+    font-family: var(--font-family);
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-left: 93px;
+    margin-top: 85px;
+    margin-bottom: 180px;
+    
+}
+
+.header__img {
+    margin-bottom: 162px;
+}
+
+.header__email {
+    color: var(--color);
+    text-align: center;
+    font-family: var(--font-family);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration-line: underline;
+    padding-left: 97px;
+    
+}
+
+.header__information {
+    margin-top: 192px;
+}
+
+.header__develop {
+    width: 410px;
+    height: 145px;
+    color: var(--color);
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    font-family: var(--font-family);
+    padding-right: 71px;
+    margin-bottom: 55px;
+}
+
+.header__collage {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 71px;
+}
+
+.header__collage-img {
+    margin-bottom: 20px;
+}
+
+.header__collage-title {
+    color: var(--color);
+    text-align: center;
+    font-family: var(--font-family);
+    width: 165px;
+    height: 44px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+

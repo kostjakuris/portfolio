@@ -1,0 +1,83 @@
+.skills {
+    background: var(--background-first);
+    overflow-x: hidden;
+}
+
+.skills__top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.skills__wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 708px;
+    height: 47px;
+    border-radius: 12px;
+    background: rgba(0, 0, 0, 0.15);
+    margin-bottom: 74px;
+}
+
+.skills__wrapper-title {
+    color: var(--color);
+    margin-left: 10px;
+    font-family: var(--font-family);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.skills__wrapper-firstOval {
+    width: 411px;
+    height: 12px;
+    border-radius: 12px;
+    border: 1px solid #000;
+    background: #DECECE;
+}
+
+.skills__wrapper-firstBlueOval {
+    width: 231px;
+    height: 11px;
+    border-radius: 12px;
+    background: #2667C9;
+}
+
+.skills__wrapper-secondBlueOval {
+    width: 146px;
+    height: 11px;
+    border-radius: 12px;
+    background: #2667C9;
+}
+
+.skills__wrapper-thirdBlueOval {
+    width: 108px;
+    height: 11px;
+    border-radius: 12px;
+    background: #2667C9;
+}
+
+.skills__wrapper-forthBlueOval {
+    width: 206px;
+    height: 11px;
+    border-radius: 12px;
+    background: #2667C9;
+}
+
+.skills__wrapper-fifthBlueOval {
+    width: 136px;
+    height: 11px;
+    border-radius: 12px;
+    background: #2667C9;
+}
+
+.skills__wrapper-sixthBlueOval {
+    width: 174px;
+    height: 11px;
+    border-radius: 12px;
+    background: #2667C9;
+}
+
