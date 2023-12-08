@@ -16,11 +16,11 @@ const ProjectDetails = () => {
             
             <div className="details__screenshots">
                 <span className="details__screenshots-title">Homepage</span>
-                <img className="details__screenshots-img" src={"img/homepage.svg"} alt="homepage"/>
+                <img className="details__screenshots-img" src={"portfolio/img/homepage.svg"} alt="homepage"/>
                 <span className="details__screenshots-title">Devices</span>
-                <img className="details__screenshots-img" src={"img/devices.svg"} alt="devices"/>
+                <img className="details__screenshots-img" src={"portfolio/img/devices.svg"} alt="devices"/>
                 <span className="details__screenshots-title">Groups of devices</span>
-                <img className="details__screenshots-img" src={"img/groups.svg"} alt="groups"/>
+                <img className="details__screenshots-img" src={"portfolio/img/groups.svg"} alt="groups"/>
             
             </div>
         </div>
