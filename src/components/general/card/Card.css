@@ -36,3 +36,22 @@
     margin-right: 10px;
 }
 
+@media (max-width: 840px) {
+    .card {
+        margin-bottom: 80px;
+    }
+}
+
+@media (max-width: 350px) {
+    .card {
+        width: 260px;
+    }
+    
+    .card__title {
+        font-size: 16px;
+    }
+    
+    .card__number-link {
+        font-size: 14px;
+    }
+}

@@ -12,3 +12,8 @@
     height: 200px;
 }
 
+@media (max-width: 470px) {
+    .experience__img-photo {
+        width: 250px;
+    }
+}
