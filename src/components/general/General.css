@@ -1,0 +1,33 @@
+.general {
+    background: var(--background-second);
+    overflow-x: hidden;
+    
+}
+
+.general__title {
+    padding-top: 87px;
+    color: var(--color);
+    text-align: center;
+    font-family: var(--font-family);
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-bottom: 117px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+}
+
+.cards__first {
+    width: 750px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    margin-bottom: 95px;
+}
+
